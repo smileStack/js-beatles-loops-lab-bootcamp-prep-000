@@ -5,3 +5,5 @@ function theBeatlesPlay(musicians, instruments){
     array.push(str);
   }
 }
+
+theBeatlesPlay(array1,array2);
