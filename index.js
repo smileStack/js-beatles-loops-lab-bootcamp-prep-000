@@ -1,3 +1,5 @@
+
+theBeatlesPlay(array1,array2);
 function theBeatlesPlay(musicians, instruments){
   var array = [];
   for(var m=0;m<musicians.length;m++){
@@ -6,5 +8,3 @@ function theBeatlesPlay(musicians, instruments){
   }
   return array
 }
-
-theBeatlesPlay(array1,array2);
