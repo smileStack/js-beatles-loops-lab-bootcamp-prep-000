@@ -18,4 +18,9 @@ function theBeatlesPlay(musicians, instruments){
   return array
 }
 
-function johnLennonFacts()
+function johnLennonFacts(array){
+  for(let i in array){
+    array[i] = array[i] + "!!!";
+  }
+  return array
+}
