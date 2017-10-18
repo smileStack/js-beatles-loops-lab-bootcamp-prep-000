@@ -30,7 +30,7 @@ function iLoveTheBeatles(num, param){
   do{
     array.push("I love the Beatles!");
     num++;
-    if(num < param){
+    if(num > param){
       return array;
     }
   }while(num<15);
